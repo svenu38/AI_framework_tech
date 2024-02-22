@@ -44,7 +44,7 @@ The dataset includes the following features:
 - Scikit-learn
 
 ## Project Structure
-- `dataset/`: Directory containing the dataset files.
+- ``: Directory containing the dataset files.
 - `dataset/exam.ipynb/`: Jupyter notebooks for data exploration, analysis, and modeling.
 - `README.md`: Overview of the project, dataset description, analysis goals, and project structure.
 - `requirements.txt`: List of Python packages required to run the project.
@@ -62,7 +62,7 @@ After hyperparameter tuning, the best parameters for the Random Forest model wer
 - Maximum Depth: None
 - Bootstrap: False
 
-The model achieved a cross-validated score of 0.6182 with these parameters, indicating its performance in predicting patient stay duration.
+The model achieved a cross-validated score of 0.6282 with these parameters, indicating its performance in predicting patient stay duration.
 
 ## Best Parameters and Model Performance
 
@@ -75,12 +75,12 @@ After hyperparameter tuning, the best parameters for the Decision Tree model wer
 - Maximum Features: None
 - Maximum Depth: None
 
-The model achieved a cross-validated score of 0.4767 with these parameters, indicating its performance in predicting patient stay duration.
+The model achieved a cross-validated score of 0.4867 with these parameters, indicating its performance in predicting patient stay duration.
 
 ## Getting Started
 1. Clone this repository.
 2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Explore the Jupyter notebooks in the `dataset/exam.ipynb/` file to understand the analysis process.
+3. Explore the Jupyter notebooks in the `exam.ipynb/` file to understand the analysis process.
 
 ## Contributors
 - [venu siddapura govindaraju](https://github.com/svenu38/AI_framework_tech)
