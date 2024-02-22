@@ -44,18 +44,46 @@ The dataset includes the following features:
 - Scikit-learn
 
 ## Project Structure
-- `data/`: Directory containing the dataset files.
-- `exam.ipynb/`: Jupyter notebooks for data exploration, analysis, and modeling.
+- `dataset/`: Directory containing the dataset files.
+- `dataset/exam.ipynb/`: Jupyter notebooks for data exploration, analysis, and modeling.
 - `README.md`: Overview of the project, dataset description, analysis goals, and project structure.
 - `requirements.txt`: List of Python packages required to run the project.
+
+## Best Parameters and Model Performance
+
+### Random Forest
+
+After hyperparameter tuning, the best parameters for the Random Forest model were found to be:
+
+- Number of Estimators: 200
+- Minimum Samples Split: 5
+- Minimum Samples Leaf: 2
+- Maximum Features: 'sqrt'
+- Maximum Depth: None
+- Bootstrap: False
+
+The model achieved a cross-validated score of 0.6182 with these parameters, indicating its performance in predicting patient stay duration.
+
+## Best Parameters and Model Performance
+
+### Decision Tree
+
+After hyperparameter tuning, the best parameters for the Decision Tree model were found to be:
+
+- Minimum Samples Split: 2
+- Minimum Samples Leaf: 2
+- Maximum Features: None
+- Maximum Depth: None
+
+The model achieved a cross-validated score of 0.4767 with these parameters, indicating its performance in predicting patient stay duration.
 
 ## Getting Started
 1. Clone this repository.
 2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Explore the Jupyter notebooks in the `exam.ipynb/` file to understand the analysis process.
+3. Explore the Jupyter notebooks in the `dataset/exam.ipynb/` file to understand the analysis process.
 
 ## Contributors
-- [Your Name](https://github.com/svenu38)
+- [venu siddapura govindaraju](https://github.com/svenu38/AI_framework_tech)
 
 
 
