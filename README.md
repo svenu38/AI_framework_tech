@@ -84,6 +84,7 @@ The model achieved a cross-validated score of 0.4767 with these parameters, indi
 
 ## Contributors
 - [venu siddapura govindaraju](https://github.com/svenu38/AI_framework_tech)
+- [shilpa srinivasareddy] (https://github.com/shilpasrinivasareddy/AI_framework_tech)
 
 
 
